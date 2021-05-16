@@ -7,6 +7,7 @@
     font-family: "MuliBold";
     src: url(../assets/fonts/Muli-Bold.ttf);
     font-display: swap;
+    font-weight: 700;
 }
 @font-face {
     font-family: "MuliBoldItalic";
@@ -17,21 +18,25 @@
     font-family: "MuliExtraBold";
     src: url(../assets/fonts/Muli-ExtraBold.woff);
     font-display: swap;
+    font-weight: 800;
 }
 @font-face {
     font-family: "MuliItalic";
     src: url(../assets/fonts/Muli-Italic.ttf);
     font-display: swap;
+    font-weight: 400;
 }
 @font-face {
     font-family: "MuliRegular";
     src: url(../assets/fonts/Muli-Regular.woff);
     font-display: swap;
+    font-weight: 400;
 }
 @font-face {
     font-family: "MuliSemiBoldItalic";
     src: url(../assets/fonts/Muli-Semi-BoldItalic.ttf);
     font-display: swap;
+    font-weight: 600;
 }
 .header{
     height: 100vh;
@@ -119,28 +124,88 @@
     display: flex;
     justify-content: center;
 }
-.header__btn--green-bg{
-    background-color: #0aa566;
-    font-family: 'MuliBold';
+.btn{
+    font-weight: 800;
+    font-size: 21px;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.header__btn{
     width: 280px;
     height: 70px;
     font-size: 24px;
-    font-weight: 800;
     letter-spacing: -0.02em;
-    color: #ffffff;
-    border: none;
     border-radius: 35px;
     -webkit-border-radius: 35px;
     -moz-border-radius: 35px;
     -ms-border-radius: 35px;
     -o-border-radius: 35px;
 }
-.btn__arrow-yellow{
-    margin-left: 55px;
+.btn--green{
+    background-color: #0aa566;
+}
+.title{
+    font-size: 50px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;    
+    color: #f7ae3b;
+}
+.desc{
+    font-family: 'MuliRegular';
+    font-size: 18px;
+    line-height: 35px;
+    font-weight: 400;
+    color: #1e1e1e;
+}
+.about{
+    background-color: #188274;
+}
+.about__title{
+    font-size: 55px;
+    line-height: 60px;
+    color: #ffffff;
+}
+.title--green{
+    color: #cae941;
+}
+.about__btn{
+    width: 382px;
+    height: 63px;
+    border: 2px solid #f8b231;
+    background-color: transparent;
 }
 
 
+.products{
+    display: flex;
+    width: 480px;
+    height: 720px;
+}
 
+.products__card-dark{
+    background-color: #642e16;
+}
+.products__card-vegan{
+    background-color: #158272;
+}
+.products__card-lemon{
+    background-color: #fbac3b;
+}
+.products__card-turmeric{
+    background-color: #c64720;
+}
+.products__btn{
+    width: 207px;
+    height: 63px;
+    border: 2px solid #ffffff;
+    background-color: transparent;
+}
 
 
 
